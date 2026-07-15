@@ -1,111 +1,18 @@
 <!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="杨坤，资深影视剪辑师作品集。专注商业广告、电影预告片、音乐MV与纪录片剪辑，用光影讲述动人故事。" />
-  <title>杨坤 | 影视剪辑师作品集</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <style>
-    :root{--bg:#090909;--panel:#14110c;--panel2:#1c1710;--line:rgba(255,255,255,.11);--text:#fff7ea;--muted:rgba(255,247,234,.66);--faint:rgba(255,247,234,.42);--gold:#f5b642;--gold2:#f59e0b;--shadow:0 28px 90px rgba(0,0,0,.48)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 20% 0,rgba(245,158,11,.16),transparent 34rem),linear-gradient(135deg,#0b0b0b,#15110c 48%,#080808);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}img,video{max-width:100%;display:block}button,input,textarea{font:inherit}.container{width:min(1160px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line);background:rgba(9,9,9,.72);backdrop-filter:blur(18px)}.nav-inner{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.08em}.brand span{color:var(--gold)}.links{display:flex;gap:26px;color:var(--muted);font-size:14px}.links a:hover{color:var(--gold)}.hero{min-height:calc(100dvh - 72px);display:grid;grid-template-columns:.95fr 1.05fr;gap:48px;align-items:center;padding:76px 0}.eyebrow{display:inline-flex;gap:10px;align-items:center;border-left:1px solid rgba(245,182,66,.75);padding-left:14px;color:#f7d99d;font-size:14px;margin-bottom:28px}.hero h1{font-size:clamp(48px,7vw,92px);line-height:1.03;margin:0 0 24px;letter-spacing:-.06em;max-width:8.6ch}.hero p{font-size:clamp(17px,2vw,21px);color:var(--muted);max-width:610px;margin:0}.actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}.btn{min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:12px 20px;border:1px solid transparent;cursor:pointer;transition:.25s ease}.btn.primary{background:linear-gradient(135deg,var(--gold),#ffd27a);color:#151008;font-weight:800}.btn.secondary{border-color:var(--line);background:rgba(255,255,255,.045);color:var(--text)}.btn:hover{transform:translateY(-2px)}.showcase{border:1px solid var(--line);border-radius:28px;overflow:hidden;background:#000;box-shadow:var(--shadow)}.showcase-top{display:flex;justify-content:space-between;padding:13px 16px;border-bottom:1px solid var(--line);color:var(--faint);font-size:12px}.showcase-grid{display:grid;grid-template-columns:1.35fr .82fr;gap:1px;background:var(--line)}.showcase figure{margin:0;position:relative;background:#000;min-height:220px;overflow:hidden}.showcase figure:first-child{min-height:520px}.showcase img{width:100%;height:100%;object-fit:cover;opacity:.84;transition:.5s ease}.showcase figure:hover img,.card:hover img{opacity:1;transform:scale(1.04)}.caption{position:absolute;inset:auto 0 0;background:linear-gradient(to top,rgba(0,0,0,.94),rgba(0,0,0,.45),transparent);padding:24px}.caption small{color:#f6d48a}.caption strong{display:block;font-size:clamp(20px,2.2vw,34px);line-height:1.18;margin-top:7px}.section{padding:92px 0}.section-head{text-align:center;max-width:760px;margin:0 auto 44px}.section-head h2{font-size:clamp(36px,5vw,64px);line-height:1.08;letter-spacing:-.04em;margin:0}.section-head p{color:var(--muted);font-size:18px;margin:16px 0 0}.filters{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-bottom:34px}.filter{border:1px solid var(--line);background:rgba(255,255,255,.045);color:var(--muted);border-radius:999px;min-height:44px;padding:9px 17px;cursor:pointer}.filter.active{background:var(--gold);color:#151008;border-color:var(--gold);font-weight:800}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.card{border:1px solid var(--line);border-radius:24px;overflow:hidden;background:rgba(20,17,12,.78);text-align:left;color:inherit;cursor:pointer;transition:.28s ease}.card.featured{grid-column:span 2}.card:hover{border-color:rgba(245,182,66,.45);transform:translateY(-5px)}.thumb{aspect-ratio:16/10;background:#000;overflow:hidden}.card.featured .thumb{aspect-ratio:16/8}.thumb img{width:100%;height:100%;object-fit:cover;opacity:.78;transition:.5s ease}.card-body{padding:22px}.meta{display:flex;justify-content:space-between;gap:12px;color:#f3cf86;font-size:13px}.card h3{font-size:23px;line-height:1.2;margin:10px 0 10px}.card p{color:var(--muted);margin:0}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.tag{font-size:12px;color:var(--faint);border:1px solid var(--line);border-radius:999px;padding:4px 9px}.about{display:grid;grid-template-columns:.86fr 1.14fr;gap:40px;align-items:center}.portrait{aspect-ratio:4/5;border-radius:28px;border:1px solid rgba(245,182,66,.28);background:linear-gradient(145deg,rgba(245,158,11,.2),rgba(255,255,255,.05));display:grid;place-items:center;box-shadow:var(--shadow)}.mark{width:132px;height:132px;border-radius:28px;background:var(--gold);color:#151008;display:grid;place-items:center;font-size:54px;font-weight:900}.about h2{font-size:clamp(36px,5vw,58px);line-height:1.1;margin:0 0 20px}.gold{color:var(--gold)}.about p{color:var(--muted);font-size:18px}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.skill,.contact-card{border:1px solid var(--line);border-radius:22px;background:rgba(20,17,12,.72);padding:22px}.skill strong{display:block;font-size:18px;margin-bottom:6px}.skill span{color:var(--muted);font-size:14px}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.contact-card b{display:block;color:var(--gold);font-size:20px;margin:8px 0}.form{max-width:680px;margin:34px auto 0;border:1px solid var(--line);border-radius:26px;background:rgba(20,17,12,.78);padding:28px}.field{display:grid;gap:8px;margin:0 0 16px}.field label{color:rgba(255,247,234,.82);font-size:14px}.field input,.field textarea{width:100%;border:1px solid var(--line);border-radius:16px;background:#090909;color:var(--text);padding:13px 15px;outline:none}.field input:focus,.field textarea:focus{border-color:rgba(245,182,66,.72);box-shadow:0 0 0 3px rgba(245,182,66,.15)}footer{border-top:1px solid var(--line);padding:28px 0;color:var(--faint);text-align:center}.modal{position:fixed;inset:0;z-index:50;display:none;background:rgba(0,0,0,.78);backdrop-filter:blur(8px);padding:24px}.modal.open{display:grid;place-items:center}.modal-box{width:min(980px,100%);border:1px solid var(--line);border-radius:24px;background:#0d0d0d;overflow:hidden;box-shadow:var(--shadow)}.modal-head{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:16px 18px;border-bottom:1px solid var(--line)}.modal-head h3{margin:0;font-size:20px}.close{border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);border-radius:999px;width:40px;height:40px;cursor:pointer}.video-wrap{background:#000}.video-wrap video{width:100%;max-height:70vh}.hidden{display:none!important}@media (max-width:900px){.hero,.about{grid-template-columns:1fr}.showcase-grid,.grid,.skills,.contact-grid{grid-template-columns:1fr}.card.featured{grid-column:auto}.showcase figure:first-child{min-height:360px}.links{display:none}.section{padding:72px 0}}@media (prefers-reduced-motion:no-preference){.reveal{opacity:0;transform:translateY(24px);animation:rise .72s ease forwards}@keyframes rise{to{opacity:1;transform:none}}}@media (max-width:520px){.container{width:min(100% - 28px,1160px)}.hero{padding:52px 0}.actions .btn{width:100%}.form{padding:20px}.hero h1{font-size:48px}}
-  </style>
-</head>
-<body>
-  <header class="nav">
-    <div class="container nav-inner">
-      <a class="brand" href="#top">杨<span>坤</span></a>
-      <nav class="links" aria-label="主导航">
-        <a href="#portfolio">作品</a><a href="#about">关于</a><a href="#contact">联系</a>
-      </nav>
-    </div>
-  </header>
-  <main id="top">
-    <section class="container hero">
-      <div class="reveal">
-        <div class="eyebrow">▶ 专业影视剪辑师</div>
-        <h1>让每一帧，都替故事说话</h1>
-        <p>杨坤，资深影视剪辑师，专注于商业广告、电影预告片、音乐MV与纪录片剪辑，用光影讲述动人故事。</p>
-        <div class="actions">
-          <a class="btn primary" href="#portfolio">查看作品 →</a>
-          <a class="btn secondary" href="#contact">联系我</a>
-        </div>
-      </div>
-      <div class="showcase reveal" style="animation-delay:.18s">
-        <div class="showcase-top"><span>剪辑精选</span><span>2024</span></div>
-        <div class="showcase-grid">
-          <figure><img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=1100&q=82" alt="古装短剧画面"><figcaption class="caption"><small>主推作品</small><strong>爹别贪了！我哥爬龙床我散财爹红</strong></figcaption></figure>
-          <div>
-            <figure><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=82" alt="修真作品画面"><figcaption class="caption"><strong>修真</strong><small>2024</small></figcaption></figure>
-            <figure><img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=82" alt="雨中倒影作品画面"><figcaption class="caption"><strong>雨中倒影</strong><small>2023</small></figcaption></figure>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="portfolio" class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>近期剪辑作品</h2>
-          <p>以节奏、情绪和叙事效率为核心，覆盖短剧、广告、MV 与纪录片等多种影像场景。</p>
-        </div>
-        <div class="filters" role="tablist" aria-label="作品分类">
-          <button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="commercial">商业广告</button><button class="filter" data-filter="film">电影</button><button class="filter" data-filter="music">音乐MV</button><button class="filter" data-filter="documentary">纪录片</button>
-        </div>
-        <div class="grid" id="workGrid"></div>
-      </div>
-    </section>
-    <section id="about" class="section">
-      <div class="container about">
-        <div class="portrait reveal"><div class="mark">YK</div></div>
-        <div class="reveal" style="animation-delay:.12s">
-          <h2>我是<span class="gold">杨坤</span></h2>
-          <p>一名拥有多年经验的资深影视剪辑师。热爱用镜头语言讲述故事，专注于商业广告、电影预告片、音乐MV与纪录片的剪辑创作。</p>
-          <p>我相信优秀的剪辑不只是技术的体现，更是情感的传递。从节奏把控到情绪铺陈，我致力于在每一帧中找到最动人的瞬间。</p>
-          <div class="skills">
-            <div class="skill"><strong>Premiere Pro</strong><span>叙事剪辑 / 节奏控制</span></div>
-            <div class="skill"><strong>After Effects</strong><span>包装动效 / 字幕节奏</span></div>
-            <div class="skill"><strong>DaVinci Resolve</strong><span>调色协作 / 画面统一</span></div>
-            <div class="skill"><strong>Final Cut Pro</strong><span>快速粗剪 / 短片交付</span></div>
-            <div class="skill"><strong>Avid Media Composer</strong><span>长片流程 / 素材管理</span></div>
-            <div class="skill"><strong>Audition</strong><span>声音清理 / 氛围铺陈</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>与我<span class="gold">取得联系</span></h2>
-          <p>如果你有项目合作意向或任何问题，欢迎通过以下方式联系我。</p>
-        </div>
-        <div class="contact-grid">
-          <a class="contact-card" href="mailto:19839423834@163.com"><span>邮箱</span><b>19839423834@163.com</b><small>随时发送邮件与我取得联系</small></a>
-          <a class="contact-card" href="tel:19839423834"><span>电话</span><b>19839423834</b><small>工作时间 9:00 - 18:00 随时接听</small></a>
-          <div class="contact-card"><span>地址</span><b>河南省</b><small>欢迎线下沟通与合作洽谈</small></div>
-        </div>
-        <form class="form" id="contactForm">
-          <div class="field"><label for="name">您的姓名</label><input id="name" name="name" required placeholder="请输入您的姓名" /></div>
-          <div class="field"><label for="message">您的留言</label><textarea id="message" name="message" rows="5" required placeholder="请描述您的项目需求或留言"></textarea></div>
-          <button class="btn primary" style="width:100%" type="submit">发送消息</button>
-        </form>
-      </div>
-    </section>
-  </main>
-  <footer><div class="container">© 2026 杨坤. 以剪辑连接画面与故事。</div></footer>
-  <div class="modal" id="modal" aria-hidden="true">
-    <div class="modal-box">
-      <div class="modal-head"><h3 id="modalTitle">作品预览</h3><button class="close" type="button" aria-label="关闭">×</button></div>
-      <div class="video-wrap"><video id="video" controls playsinline></video></div>
-    </div>
-  </div>
-  <script>
-    const works=[{title:"爹别贪了！我哥爬龙床我散财爹红",cat:"commercial",desc:"古装短剧剪辑，通过紧凑的节奏和情绪把控，呈现精彩的宫廷斗争故事。",year:"2024",img:"https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=900&q=82",tags:["短剧","古装","剧情"],video:"https://yk-9527-1454067391.cos.ap-guangzhou.myqcloud.com/%E4%BD%9C%E5%93%81/%E7%9F%AD%E5%89%A7/%E7%88%B9%E5%88%AB%E8%B4%AA%E4%BA%86%EF%BC%81%E6%88%91%E5%93%A5%E7%88%AC%E9%BE%99%E5%BA%8A%E6%88%91%E6%95%A3%E8%B4%A2%E7%88%86%E7%BA%A2/%E7%88%B9%E5%88%AB%E8%B4%AA%E4%BA%86%EF%BC%81%E6%88%91%E5%93%A5%E7%88%AC%E9%BE%99%E5%BA%8A%E6%88%91%E6%95%A3%E8%B4%A2%E7%88%86%E7%BA%A2.mp4"},{title:"修真",cat:"film",desc:"修真题材短视频剪辑，通过节奏把控与情绪渲染，呈现精彩的玄幻修仙世界。",year:"2024",img:"https://images.unsplash.com/photo-1485846234645-a62644f84728?w=900&q=82",tags:["玄幻","修真","短视频"],video:"https://yk-9527-1454067391.cos.ap-guangzhou.myqcloud.com/%E4%BD%9C%E5%93%81/%E8%A7%86%E9%A2%91/%E4%BF%AE%E7%9C%9F/%E4%BF%AE%E7%9C%9F.mp4"},{title:"雨中倒影",cat:"music",desc:"雨中倒影主题视频，将雨天的唯美意境转化为视觉语言，打造独特的视听体验。",year:"2023",img:"https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=900&q=82",tags:["唯美","意境","雨中"],video:"https://yk-9527-1454067391.cos.ap-guangzhou.myqcloud.com/%E4%BD%9C%E5%93%81/%E8%A7%86%E9%A2%91/%E9%9B%A8%E4%B8%AD%E5%80%92%E5%BD%B1/%E9%9B%A8%E4%B8%AD%E5%80%92%E5%BD%B1.mp4"},{title:"跳舞片段",cat:"documentary",desc:"舞蹈视频剪辑，记录舞者精彩瞬间，用镜头展现舞蹈的力量与美感。",year:"2023",img:"https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=900&q=82",tags:["舞蹈","艺术","纪实"],video:"https://yk-9527-1454067391.cos.ap-guangzhou.myqcloud.com/%E4%BD%9C%E5%93%81/%E8%A7%86%E9%A2%91/%E8%B7%B3%E8%88%9E/%E8%B7%B3%E8%88%9E%E7%89%87%E6%AE%B52.mp4"},{title:"修真（二）",cat:"commercial",desc:"修真题材短视频第二部，延续精彩的玄幻修仙剧情，打造震撼视觉效果。",year:"2024",img:"https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=900&q=82",tags:["玄幻","修真","短视频"],video:"https://yk-9527-1454067391.cos.ap-guangzhou.myqcloud.com/%E4%BD%9C%E5%93%81/%E8%A7%86%E9%A2%91/%E4%BF%AE%E7%9C%9F/%E4%BF%AE%E7%9C%9F.mp4"},{title:"微电影作品",cat:"film",desc:"独立微电影后期制作，从粗剪到精修，完整呈现导演的创作意图与故事内核。",year:"2023",img:"https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=900&q=82",tags:["微电影","独立电影","叙事"],video:"https://example.cos.ap-beijing.myqcloud.com/video/demo6.mp4"}];
-    const grid=document.querySelector("#workGrid"),filters=[...document.querySelectorAll(".filter")],modal=document.querySelector("#modal"),video=document.querySelector("#video"),modalTitle=document.querySelector("#modalTitle");
-    function render(cat="all"){grid.innerHTML=works.filter(w=>cat==="all"||w.cat===cat).map((w,i)=>`<button class="card ${i===0?"featured":""}" data-title="${w.title}" data-video="${w.video}"><div class="thumb"><img src="${w.img}" alt="${w.title}"></div><div class="card-body"><div class="meta"><span>${w.year}</span><span>播放预览</span></div><h3>${w.title}</h3><p>${w.desc}</p><div class="tags">${w.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div></div></button>`).join("")}
-    filters.forEach(btn=>btn.addEventListener("click",()=>{filters.forEach(b=>b.classList.remove("active"));btn.classList.add("active");render(btn.dataset.filter)}));
-    grid.addEventListener("click",e=>{const card=e.target.closest(".card");if(!card)return;modalTitle.textContent=card.dataset.title;video.src=card.dataset.video;modal.classList.add("open");modal.setAttribute("aria-hidden","false")});
-    document.querySelector(".close").addEventListener("click",closeModal);modal.addEventListener("click",e=>{if(e.target===modal)closeModal()});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});function closeModal(){video.pause();video.removeAttribute("src");modal.classList.remove("open");modal.setAttribute("aria-hidden","true")}
-    document.querySelector("#contactForm").addEventListener("submit",e=>{e.preventDefault();const name=encodeURIComponent(e.target.name.value);const msg=encodeURIComponent(e.target.message.value);location.href=`mailto:19839423834@163.com?subject=${encodeURIComponent("网站合作咨询")}&body=${encodeURIComponent("姓名：")}${name}%0A%0A${encodeURIComponent("留言：")}${msg}`});
-    render();
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Ykun-20-yk-9527.github.io/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>杨坤 | 影视剪辑师作品集</title>
+    <meta
+      name="description"
+      content="杨坤个人影视剪辑师作品集，展示短剧、广告、MV、纪录片等剪辑作品。"
+    />
+    <script type="module" crossorigin src="/Ykun-20-yk-9527.github.io/assets/index-hDH20Wis.js"></script>
+    <link rel="stylesheet" crossorigin href="/Ykun-20-yk-9527.github.io/assets/index-BD7c1Hw6.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
